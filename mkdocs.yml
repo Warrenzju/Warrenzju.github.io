@@ -1,3 +1,36 @@
-site_name: my_site
+site_name: Warren的个人小站
 theme:
   name: material
+  palette: 
+    primary: cyan
+    accent: red
+  icon:
+    logo: material/ski
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.top
+nav:
+  - home: 
+    - me: index.md
+    - markdown基本语法: home/Markdown语法.md
+  - Course Notes:
+    - page: course notes/pag1.md    
+extra_javascript:
+  # [数学公式支持]
+  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
+  - mkdocs/javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+extra_css:
+  # [数学公式支持]
+  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  # [自定义 css]
+  # 不使用底部的翻页
+  - mkdocs/css/no-footer.css
+  # 无序列表符号自定义
+  - mkdocs/css/unordered-list-symbols.css
+extra:
+  homepage:  https://warrenzju.github.io/
