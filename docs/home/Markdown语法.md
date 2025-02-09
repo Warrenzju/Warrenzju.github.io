@@ -1,4 +1,4 @@
-# Markdown语法
+# Markdown语法(typora)
 
 ## 一、标题语法
 - ctrl+1~6 可改变标题级别
