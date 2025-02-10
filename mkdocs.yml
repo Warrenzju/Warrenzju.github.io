@@ -11,7 +11,6 @@ theme:
     repo: fontawesome/brands/github
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.expand
     - navigation.top
 repo_url: https://github.com/Warrenzju/Warrenzju.github.io
@@ -21,43 +20,48 @@ nav:
     - Me: index.md
     - Markdown基本语法: home/Markdown语法.md
   - Course Notes:
-    - page: course notes/pag1.md    
+    - 马克思主义原理: course notes/mayuan.md
 markdown_extensions:
-  # [数学公式支持]
-  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
-  - pymdownx.arithmatex:
-      generic: true
-  # [图片功能支持]
-  # https://squidfunk.github.io/mkdocs-material/reference/images/
-  # 给 Markdown 图片语法后面添加 `{width="300"}` 设置大小
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - abbr
   - attr_list
+  - admonition
+  - footnotes
+  # - callouts
   - md_in_html
-  # [给标题添加链接]
-  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#+toc.permalink
+  - markdown.extensions.abbr # 支持Markdown文件上方自定义标题标签等
+  - pymdownx.magiclink
+  - pymdownx.caret
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format 
+  - pymdownx.arithmatex:  # latex支持
+      generic: true
   - toc:
       permalink: true # 固定标题位置为当前位置
-  # [代码语法高亮]
-  # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-blocks
-  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
-  - pymdownx.highlight:
-      # 显示行号
-      linenums: true
-      # 显示编程语言名称
-      auto_title: true
-      # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#+pymdownx.highlight.line_spans
-      line_spans: __span
-      # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#+pymdownx.highlight.pygments_lang_class
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  # [Markdown 提示]
-  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
-  - admonition
-  - pymdownx.details
-  # [Markdown footnote 语法支持]
-  # https://squidfunk.github.io/mkdocs-material/reference/footnotes/
-  - footnotes
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      auto_title: true # 显示编程语言名称
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
 extra_javascript:
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
