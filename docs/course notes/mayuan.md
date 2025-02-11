@@ -27,8 +27,16 @@ hide:
 - 政治经济学（这部分比较难，老师上课说的是随缘，看看过即可）  
 
 [老师分享的提纲按需自取](https://pan.quark.cn/s/b6cee0f2d8bd " 马原提纲 ")
-## 详细资料参考
 <br>
 
-<iframe src="../../pdfs/2.pdf" width="100%" height="800px" style="border: 1px solid #ccc; overflow: auto;">
-</iframe>
+<div class="grid cards" markdown>
+
+-   :fontawesome-regular-bookmark:{ .lg .middle } __详细资料__ 
+
+    ---
+
+    <iframe src="../../pdfs/2.pdf" width="100%" height="800px" style="border: 1px solid #ccc; overflow: auto;">
+    </iframe>
+    
+
+</div>

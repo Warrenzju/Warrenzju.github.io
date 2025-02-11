@@ -1,4 +1,5 @@
 site_name: Warren的个人小站
+site_description: 与买桂花同载酒，终不似少年游
 theme:
   name: material
   font: 
@@ -9,18 +10,26 @@ theme:
   icon:
     logo: material/ski
     repo: fontawesome/brands/github
+    previous: fontawesome/solid/angle-left
+    top: fontawesome/solid/angles-up
+    alternate: fontawesome/solid/language
   features:
     - navigation.tabs
     - navigation.expand
     - navigation.top
 repo_url: https://github.com/Warrenzju/Warrenzju.github.io
-repo_name: Warrenzju
+repo_name: Warrenzju.github.io
 nav:
   - Home: 
     - Me: index.md
     - Markdown基本语法: home/Markdown语法.md
   - Course Notes:
     - 马克思主义原理: course notes/mayuan.md
+    - 模电:
+      - 三极管总结: course notes/modian/sanjiguan.md
+      - 单管放大电路总结: course notes/modian/danguanfangdadianlu.md
+      - 负反馈总结: course notes/modian/fufankui.md
+    - 偏微分: course notes/pde/pde.md
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
@@ -77,5 +86,6 @@ extra_css:
   - mkdocs/css/no-footer.css
   # 无序列表符号自定义
   - mkdocs/css/unordered-list-symbols.css
+  - mkdocs/css/Rounded corners.css
 extra:
   homepage:  https://warrenzju.github.io/
