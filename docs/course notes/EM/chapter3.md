@@ -27,28 +27,28 @@ $$
 
 1. 连续分布电荷的电场
 
-  - 体电荷
+     - 体电荷
   	$$
   	E=\frac{1}{4\pi\epsilon_0}\int_{V'}\boldsymbol a_R\frac{\rho_v}  {R^2}dv'
   	$$
   	
   	
-  - 面电荷
+     - 面电荷
   	$$
   	E=\frac{1}{4\pi\epsilon_0}\int_{S'}\boldsymbol a_R\frac{\rho_s} {R^2}ds'
   	$$
 
-  - 线电荷
+     - 线电荷
   	$$
   	E=\frac{1}{4\pi\epsilon_0}\int_{L'}\boldsymbol a_R\frac{\rho_l} {R^2}dl'
   	$$
 
-5. 一个无旋矢量总是可以表示位一个标量场的梯度，所以可以定义一个**标量电位V**
+2. 一个无旋矢量总是可以表示位一个标量场的梯度，所以可以定义一个**标量电位V**
 	$$
 	E=-\nabla V
 	$$
 
-6. 导体或真空界面的边界条件
+3. 导体或真空界面的边界条件
 	$$
 	E_t=0\\
 	$$
@@ -63,13 +63,13 @@ $$
 	E=0
 	$$
 
-7. 极化电介质计算场公式
+4. 极化电介质计算场公式
 	$$
 	V=\frac{1}{4\pi\epsilon_0}\oint_{V'}\frac{\rho_{p}}  {R}dv'+\frac{1}{4\pi\epsilon_0}\oint_{S'}\ a_R\frac{\rho_{ps}} {R}ds'
 	$$
 	其中等效极化电荷面密度$\rho_{ps}=\boldsymbol P\cdot\boldsymbol a_n$，等效极化电荷体密度$\rho_p=-\nabla \cdot\boldsymbol P$
 
-8. 对电介质中的散度定理进行修正
+5. 对电介质中的散度定理进行修正
 	$$
 	\nabla\cdot\boldsymbol E=\frac1\epsilon_0(\rho+\rho_p)
 	$$
@@ -89,7 +89,7 @@ $$
 	\nabla\times\boldsymbol E=0
 	$$
 
-9. 静电场的边界条件
+6. 静电场的边界条件
 	$$
 	\boldsymbol E_{1t}=\boldsymbol E_{2t}\\
 	$$
