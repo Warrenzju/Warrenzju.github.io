@@ -65,7 +65,7 @@ $$
 
 4. 极化电介质计算场公式
 	$$
-	V=\frac{1}{4\pi\epsilon_0}\oint_{V'}\frac{\rho_{p}}  {R}dv'+\frac{1}{4\pi\epsilon_0}\oint_{S'}\ a_R\frac{\rho_{ps}} {R}ds'
+	V=\frac{1}{4\pi\epsilon_0}\oint_{V'}\frac{\rho_{p}}  {R}dv'+\frac{1}{4\pi\epsilon_0}\oint_{S'}\ \frac{\rho_{ps}} {R}ds'
 	$$
 	其中等效极化电荷面密度$\rho_{ps}=\boldsymbol P\cdot\boldsymbol a_n$，等效极化电荷体密度$\rho_p=-\nabla \cdot\boldsymbol P$
 
