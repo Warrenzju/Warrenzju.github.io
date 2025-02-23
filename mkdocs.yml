@@ -3,7 +3,7 @@ site_description: 与买桂花同载酒，终不似少年游
 theme:
   name: material
   font: 
-    text: Noto Serif Simplified Chinese
+    text: Noto Serif SC
   palette: 
     primary: cyan
     accent: red
