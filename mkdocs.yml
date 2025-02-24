@@ -32,6 +32,8 @@ nav:
       - 单管放大电路总结: course notes/modian/danguanfangdadianlu.md
       - 负反馈总结: course notes/modian/fufankui.md
     - 偏微分: course notes/pde/pde.md
+    - 应用光学: 
+      - chapter1、2: course notes/opt/chapter1and2.md
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
