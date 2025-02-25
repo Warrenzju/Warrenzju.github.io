@@ -22,7 +22,7 @@ $$
 	$$
 	电偶极子在球坐标下的电场强度
 $$
-E=-\nabla =\frac{p}{4\pi\epsilon_0R^3}(\boldsymbol a_R2cos\theta+\boldsymbol a_\theta sin\theta)
+E=-\nabla V =\frac{p}{4\pi\epsilon_0R^3}(\boldsymbol a_R2cos\theta+\boldsymbol a_\theta sin\theta)
 $$
 
 1. 连续分布电荷的电场
