@@ -1,5 +1,5 @@
 site_name: Warren的个人小站
-site_description: 与买桂花同载酒，终不似少年游
+site_description: 欲买桂花同载酒，终不似少年游
 theme:
   name: material
   font: 
@@ -26,7 +26,7 @@ nav:
   - Course Notes:
     - 电磁场与电磁波:
       - Chapter3: course notes/EM/chapter3.md
-      - Chapter4、5: course notes/EM/Emchapter4.md
+      - Chapter4、5: course notes/EM/Emchapter41.md
     - 马克思主义原理: course notes/mayuan.md
     - 模电:
       - 三极管总结: course notes/modian/sanjiguan.md
@@ -35,6 +35,7 @@ nav:
     - 偏微分: course notes/pde/pde.md
     - 应用光学: 
       - chapter1、2: course notes/opt/chapter1and2.md
+      - chapter3: course notes/opt/optchapter3.md
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
@@ -80,12 +81,14 @@ extra_javascript:
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
   - mkdocs/javascripts/katex.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  #- mkdocs/javascripts/mathjax.js
+  #- https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
   # [自定义 css]
   # 不使用底部的翻页
   - mkdocs/css/no-footer.css
