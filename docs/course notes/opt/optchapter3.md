@@ -9,6 +9,8 @@ l'=-l,\beta=1
 $$
 在平面镜系统中，保持入射光线不变，将平面转过$\alpha$角，反射光线将转过$2\alpha$角
 
+![images_1](optimages/ch3/平面镜.png)
+
 ### 2. 双平面镜  
 
 夹角为$\alpha$的双平面镜系统，对他们之间的物体二次成像是由物体绕Q轴转动$2\alpha$角而得
@@ -17,6 +19,8 @@ $$
 $$
 \beta=2(I_1+I_2)=2\alpha
 $$
+
+![images_1](optimages/ch3/双平面镜.png)
 
 ## 二、平行平板
 
@@ -32,6 +36,8 @@ $$
 $$
 \bigtriangleup t'=d(1-\frac1n)i1 \tag{近轴区}
 $$
+
+![images_1](optimages/ch3/平行平板.png)
 
 ## 三、反射棱镜
 
@@ -64,6 +70,9 @@ $$
 $$
 sin(\frac{\alpha+\delta_{min}}{2}=nsin\frac\alpha 2)
 $$
+
+![images_1](optimages/ch3/折射棱镜.png){: width=400px height=250px }
+
 如果折射角$\alpha$很小，分两种情况讨论
 
 1. 光线的入射角有一定大小，如图

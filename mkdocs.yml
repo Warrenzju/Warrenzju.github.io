@@ -37,6 +37,7 @@ nav:
     - 应用光学: 
       - chapter1、2: course notes/opt/chapter1and2.md
       - chapter3: course notes/opt/optchapter3.md
+      - chapter4: course notes/opt/Optchapter4.md
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
@@ -51,6 +52,7 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.caret
   - pymdownx.betterem
+  - pymdownx.blocks.caption
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.inlinehilite
