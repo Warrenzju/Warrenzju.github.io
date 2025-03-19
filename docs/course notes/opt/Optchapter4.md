@@ -124,3 +124,80 @@ $$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;​正透镜成像&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;负透镜成像
 
 ![image_2](optimages/ch4/fig1.png)
+## 七、理想光学系统的图解求像
+
+1. 平行于光轴的光线经理想光学系统后必通过像方焦点；
+2. 过物方焦点的光线经理想光学系统后必为平行于光轴的光线
+3. 过节点的光线方向不变
+4. 任意方向的一束平行光经理想光学系统后必交于像方焦平面上一点
+5. 过物方焦平面上一点的光线经理想光学系统后必为一束平行光。
+6. 主面交点光线高度相同
+
+## 八、光学系统的组合
+
+![images_3](optimages/ch4/fig3.png)
+四组公式：
+$$
+X_F'=-\frac{f_2f_2'}{\bigtriangleup}
+$$
+
+$$
+X_F=\frac{f_1f_1'}{\bigtriangleup}
+$$
+
+$$
+f'=-\frac{f_1'f_2'}{\bigtriangleup}
+$$
+
+$$
+f=\frac{f_1f_2}{\bigtriangleup}
+$$
+
+$$
+\bigtriangleup=d-f_1'+f2
+$$
+
+
+
+注：这些公式与光组是否在空气中无关
+
+一般光组在空气中，可得$f'=-f$
+$$
+f'=\frac{f_1'f_2'}{f_1'+f_2'-d}
+$$
+
+$$
+\phi=\frac{1}{f'}=\frac{f_1'+f_2'-d}{f_1'f_2'}=\phi_1+\phi_2-d\phi_1\phi_2
+$$
+
+复杂光学系统各光组光焦度对总光焦度的贡献
+$$
+\phi=h_1\sum_{1}^kh_i\phi_i
+$$
+
+## 九、望远镜系统
+
+定义：以平行光入射，再以平行光出射的系统
+
+![images_3](optimages/ch4/fig4.png)
+
+### 1. 放大率
+
+$$
+\beta=\frac{f_2}{f_1'}
+$$
+
+$$
+\alpha=\frac{f_2f_2'}{f_1f_1'}
+$$
+
+$$
+\gamma=\frac{f_1}{f_2'}
+$$
+
+### 2. 视觉放大率
+
+$$
+\Gamma=\frac{tgU'}{tgU}=\gamma=-\frac{f_1'}{f_2'}
+$$
+
