@@ -6,32 +6,25 @@
 $$
 \nabla\times\boldsymbol{E}=-\frac{\partial \boldsymbol{B}}{\partial t}\tag{7-1}
 $$
-
 $$
 \nabla\times\boldsymbol{H}=\boldsymbol{J}+\frac{\partial \boldsymbol{D}}{\partial t}\tag{7-2}
 $$
-
 $$
 \nabla \cdot\boldsymbol{D}=\rho\tag{7-3}
 $$
-
 $$
 \nabla\cdot\boldsymbol{B}=0\tag{7-4}
 $$
-
 积分形式：
 $$
 \oint_C \boldsymbol{E}\cdot d\boldsymbol{l}=-\frac{\partial  \Phi}{\partial t}
 $$
-
 $$
 \oint_C \boldsymbol{H}\cdot d\boldsymbol{l}=\boldsymbol{I}+\int_S\frac{\partial \boldsymbol{D}}{\partial t}\cdot d\boldsymbol{s}
 $$
-
 $$
 \oint_S \boldsymbol{D}\cdot d\boldsymbol{s}=\boldsymbol{Q}
 $$
-
 $$
 \oint_S \boldsymbol{B}\cdot d\boldsymbol{s}=0
 $$
@@ -96,15 +89,12 @@ $$
 $$
 
 解得
-
 $$
 U(R,t)=f(t-R\sqrt{\mu\epsilon } )
 $$
-
 $$
 u=\frac{\bigtriangleup R}{\bigtriangleup t}=\frac{1}{\sqrt{\mu\epsilon }}
 $$
-
 $$
 V(R,t)=\frac{1}{R}f(t-R/u)
 $$
@@ -143,15 +133,12 @@ $\frac{\partial \boldsymbol{E}(x,y,z,t)}{\partial t}$和$\int \boldsymbol{E}(x,y
 $$
 \nabla\times\boldsymbol{E}=-j\omega\mu\boldsymbol{H}
 $$
-
 $$
 \nabla\times \boldsymbol{H}=\boldsymbol{J}+j\omega\epsilon\boldsymbol{E}
 $$
-
 $$
 \nabla\cdot\boldsymbol{E}=\frac{\rho}{\epsilon}
 $$
-
 $$
 \nabla\cdot\boldsymbol{H}=0
 $$
