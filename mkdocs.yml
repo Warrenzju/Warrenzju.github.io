@@ -42,6 +42,7 @@ nav:
       - chapter3: course notes/opt/optchapter3.md
       - chapter4: course notes/opt/Optchapter4.md
       - chapter5: course notes/opt/Optchapter5.md
+      - chapter6: course notes/opt/Optchapter6.md
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
