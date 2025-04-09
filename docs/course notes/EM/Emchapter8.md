@@ -119,3 +119,97 @@ $$
 所以$H$比$E$落后$45^\circ$的相位
 
 ![images_1](EMimages/fig2.png)
+
+## 三、群速
+
+各频率的相速不同引起的信号失真现象称为色散。损耗电介质显然是色散媒质
+
+$$
+u_g=\frac{1}{d\beta/d\omega}
+$$
+
+电离层或等离子体的等效介电常数为
+
+$$
+\epsilon_p=\epsilon_0(1-\frac{\omega_p^2}{\omega^2})=\epsilon_p=\epsilon_0(1-\frac{f_p^2}{f^2})
+$$
+
+电路媒质中的波传播
+
+$$
+\beta=\omega\sqrt{\mu\epsilon_0}\sqrt{1-\frac{f_p^2}{f^2}}=\frac \omega c\sqrt{1-\frac{\omega_p^2}{\omega^2}}
+$$
+
+当$\omega<=\omega_p$时，$\beta=0$，此时只有$\alpha$，在介质中波只衰减不传播
+当$\omega>\omega_p$时，波可以传播
+
+$$
+u_p=\frac \omega \beta=\frac c{\sqrt{1-\frac{\omega_p^2}{\omega^2}}}>=c
+$$
+
+$$
+u_g=\frac {d\omega} {d\beta}=c\sqrt{1-\frac{\omega_p^2}{\omega^2}}<=c
+$$
+
+所以
+$$
+u_pu_g=c^2
+$$
+
+![images_1](EMimages/fig3.png)
+
+## 四、电磁能流和坡印廷矢量
+
+$$
+\nabla \cdot (\boldsymbol{E} \times \boldsymbol{H}) = \boldsymbol{H} \cdot (\nabla \times \boldsymbol{E}) - \boldsymbol{E} \cdot (\nabla \times \boldsymbol{H})
+$$
+
+$$
+\nabla \cdot (\boldsymbol{E} \times \boldsymbol{H}) = \boldsymbol{H} \cdot \left( -\frac{\partial \boldsymbol{B}}{\partial t} \right) - \boldsymbol{E} \cdot \left( \boldsymbol{J} + \frac{\partial \boldsymbol{D}}{\partial t} \right)
+$$
+
+进一步化简：
+
+$$
+\boldsymbol{H} \cdot \left( \frac{\partial \boldsymbol{B}}{\partial t} \right) = \boldsymbol{H} \cdot \left( \frac{\partial (\mu \boldsymbol{H})}{\partial t} \right) = \frac{1}{2} \frac{\partial \left( \mu \boldsymbol{H} \cdot \boldsymbol{H} \right)}{\partial t} = \frac{\partial}{\partial t} \left( \frac{1}{2} \mu H^2 \right)
+$$
+
+$$
+\boldsymbol{E} \cdot \frac{\partial \boldsymbol{D}}{\partial t} = \boldsymbol{E} \cdot \frac{\partial \left( \epsilon \boldsymbol{E} \right)}{\partial t} = \frac{1}{2} \frac{\partial \left( \epsilon \boldsymbol{E} \cdot \boldsymbol{E} \right)}{\partial t} = \frac{\partial}{\partial t} \left( \frac{1}{2} \epsilon E^2 \right)
+$$
+
+$$
+\boldsymbol{E} \cdot \boldsymbol{J} = \boldsymbol{E} \cdot \left( \sigma \boldsymbol{E} \right) = \sigma E^2
+$$
+
+原式可化为：
+
+$$
+\nabla \cdot (\boldsymbol{E} \times \boldsymbol{H}) = - \frac{\partial}{\partial t} \left( \frac{1}{2} \epsilon E^2 + \frac{1}{2} \mu H^2 \right) - \sigma E^2
+$$
+
+积分形式：
+
+$$
+\oint_{S} \left( \boldsymbol{E} \times \boldsymbol{H} \right) \cdot d \boldsymbol{s} = - \frac{\partial}{\partial t} \int_{V} \left( \frac{1}{2} \epsilon E^2 + \frac{1}{2} \mu H^2 \right) dV - \int_{V} \sigma E^2 \, dV
+$$
+
+其中：
+
+$$
+w_e = \frac{1}{2} \epsilon E^2 = \frac{1}{2} \epsilon \boldsymbol{E} \cdot \boldsymbol{E}^{*} = \text{Electric energy density,}
+$$
+
+$$
+w_m = \frac{1}{2} \mu H^2 = \frac{1}{2} \mu \boldsymbol{H} \cdot \boldsymbol{H}^{*} = \text{Magnetic energy density,}
+$$ 
+
+$$
+p_{\sigma} = \sigma E^2 = \frac{\mathbf{J}^2}{\sigma} = \sigma \boldsymbol{E} \cdot \boldsymbol{E}^{*} = \frac{\mathbf{J} \cdot \mathbf{J}^{*}}{\sigma} = \text{Ohmic power density.}
+$$
+
+定义：
+
+$$
+\boldsymbol{P} = \boldsymbol{E} \times \boldsymbol{H}
+$$
