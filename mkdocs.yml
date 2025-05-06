@@ -15,7 +15,7 @@ theme:
     alternate: fontawesome/solid/language
   features:
     - navigation.tabs
-    - navigation.expand
+    #- navigation.expand
     - navigation.top
 repo_url: https://github.com/Warrenzju/Warrenzju.github.io
 repo_name: Warrenzju.github.io
@@ -43,6 +43,7 @@ nav:
       - chapter4: course notes/opt/Optchapter4.md
       - chapter5: course notes/opt/Optchapter5.md
       - chapter6: course notes/opt/Optchapter6.md
+      - chapter12: course notes/opt/Optchapter12.md
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
