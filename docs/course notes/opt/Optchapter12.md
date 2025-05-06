@@ -182,10 +182,11 @@ $$
 ### 5. 主观亮度
 
 - 点光源
+
 	$$
 	\frac{\phi_t}{\phi_e}=k_t\frac{D^2}{D_e^2}
 	$$
-
+	
 	- 当$D_e> D'$时，光全部进入眼睛，$\frac{\phi_t}{\phi_e}=k_t\frac{D^2}{D_e^2}$
 	- 当$D_e= D'$时，光全部进入眼睛，$D=\Gamma D'$，$\frac{\phi_t}{\phi_e}=k_t\Gamma^2$
 	- 当$D_e< D'$时，眼睛变为孔阑，同理，$\frac{\phi_t}{\phi_e}=k_t\Gamma^2$
