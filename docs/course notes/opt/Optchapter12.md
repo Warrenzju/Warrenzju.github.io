@@ -29,6 +29,52 @@ $$
 $$
 \phi=\frac {1.22\lambda}{D}
 $$
+### 3. 体视
+
+基线长:成人，b=55mm
+观察点到基线的距离L
+$$
+\theta = \frac{b}{L}
+$$
+立体视差角
+$$
+\theta_A = \frac{b}{L_A}
+$$
+
+$$
+\theta_B = \frac{b}{L_B}
+$$
+
+![images_1](optimages/ch12/12.png)
+立体视差
+$$
+\Delta\theta = \theta_D - \theta_A=\frac{b}{L^2}\Delta L
+$$
+
+体视锐度 (视差角度分辨率) —— 人眼能觉察的最小立体视差, 一般 $\Delta\theta_0 = 30'' \sim 60''$ 经训练可小到 $10''$
+
+体视圈半径 —— 存在立体视觉的范围
+$$
+L_m = \frac{b}{\Delta\theta_0} = \frac{0.065}{10''} \times 206265 \approx 1350 \text{ m}
+$$
+体视阈值：能分辨不同远近二点间的最小距离
+$$
+\Delta\theta = \frac{b}{L^2} \cdot \Delta L
+$$
+
+$$
+\Delta L_0 = \frac{L^2}{b} \Delta\theta_0 = \frac{10''}{0.065 \times 206265} L^2 \approx 7.46 \times 10^{-4} L^2 \text{ (m)}
+$$
+
+例题：双筒望远镜：放大率 Γ ，二物镜中心距 bt = K b，则
+$$
+L_{mt} = \frac{b_t}{\Delta\theta_t} = \frac{Kb\Gamma}{\Delta\theta_0} = K\Gamma \cdot L_m \quad \text{扩大到 } K\Gamma \text{ 倍}
+$$
+
+$$
+\Delta L_t = \frac{L^2}{b_t}\Delta\theta_t = \frac{L^2}{Kb} \cdot \frac{\Delta\theta_0}{\Gamma} = \frac{1}{K\Gamma}\Delta L_0 \quad \text{缩小到 } 1/(K\Gamma) \text{ 倍}
+$$
+
 
 ## 二、放大镜
 

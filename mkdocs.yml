@@ -43,6 +43,7 @@ nav:
       - chapter4: course notes/opt/Optchapter4.md
       - chapter5: course notes/opt/Optchapter5.md
       - chapter6: course notes/opt/Optchapter6.md
+      - Chapter7: course notes/opt/chapter7.md
       - chapter12: course notes/opt/Optchapter12.md
 markdown_extensions:
   - def_list
