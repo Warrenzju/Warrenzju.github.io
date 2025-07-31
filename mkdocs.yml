@@ -45,6 +45,8 @@ nav:
       - chapter6: course notes/opt/Optchapter6.md
       - Chapter7: course notes/opt/chapter7.md
       - chapter12: course notes/opt/Optchapter12.md
+    - python:
+      - basic: course notes\python\Python 基础语法指南.md
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
