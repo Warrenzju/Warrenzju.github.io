@@ -45,8 +45,11 @@ nav:
       - chapter6: course notes/opt/Optchapter6.md
       - Chapter7: course notes/opt/chapter7.md
       - chapter12: course notes/opt/Optchapter12.md
+    - 光电子学: 
+      - 高斯光学: course notes/photonics/guuass_beam.md
+      - 光子与原子: course notes/photonics/photonics.md
     - python:
-      - basic: course notes\python\basic.md
+      - basic: course notes/python/basic.md
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
