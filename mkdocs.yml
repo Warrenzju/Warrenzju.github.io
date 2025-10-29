@@ -48,6 +48,8 @@ nav:
     - 光电子学: 
       - 高斯光学: course notes/photonics/guuass_beam.md
       - 光子与原子: course notes/photonics/photonics.md
+      - 激光放大器: course notes/photonics/laser.md
+      - 激光振荡和输出理论: course notes/photonics/output.md
     - python:
       - basic: course notes/python/basic.md
 markdown_extensions:
