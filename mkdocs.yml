@@ -50,6 +50,8 @@ nav:
       - 光子与原子: course notes/photonics/photonics.md
       - 激光放大器: course notes/photonics/laser.md
       - 激光振荡和输出理论: course notes/photonics/output.md
+      - 半导体激光器: course notes/photonics/semi-conductor.md
+      - 声光调制器件: course notes/photonics/acoustic.md
     - python:
       - basic: course notes/python/basic.md
 markdown_extensions:
