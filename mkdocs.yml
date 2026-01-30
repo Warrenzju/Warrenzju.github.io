@@ -54,6 +54,8 @@ nav:
       - 声光调制器件: course notes/photonics/acoustic.md
     - python:
       - basic: course notes/python/basic.md
+  - Personal Introduction:
+    - CV: person/CV.md
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
